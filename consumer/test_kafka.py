@@ -2,7 +2,6 @@ from kafka import KafkaConsumer
 import json
 import os
 from dotenv import load_dotenv
-from threading import Thread
 
 load_dotenv()
 
@@ -31,7 +30,7 @@ def check_topic(topic_name):
         )
 
         message_count = 0
-        print(f"Waiting for messages (10 second timeout)...")
+        print("Waiting for messages (10 second timeout)...")
         
         for message in consumer:
             print(f"\nMessage {message_count + 1}:")
