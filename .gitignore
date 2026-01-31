@@ -1,0 +1,9 @@
+./github/.cache
+docker/logs
+docker/minio
+docker/plugins
+docker/postgres
+banking_dbt/.dbt/
+.env
+logs
+consumer_logs
