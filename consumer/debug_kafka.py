@@ -1,5 +1,4 @@
 from kafka import KafkaConsumer, KafkaAdminClient
-from kafka.admin import ConfigResource, ConfigResourceType
 import os
 from dotenv import load_dotenv
 import json
